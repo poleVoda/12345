@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+
+            <!-- Первая страница -->
+            <section id="start">
+                <article>
+                    <button class="go" onclick="startRegistration()">Начать!</button>
+                </article>
+            </section>
+
+            <!-- Начальное окно регистрации команд -->
+            <section id="hello">
+                <article>
+                    <img src="logo.png" width="50%">
+                </article>
+                <article>
+                    <input id="commandName1" class="input_com_name" value="Название команды №1">
+                </article>
+                <article>
+                    <input id="commandName2" class="input_com_name" value="Название команды №2">
+                </article>
+                <article>
+                    <input id="commandName3" class="input_com_name" value="Название команды №3">
+                </article>
+                <article>
+                    <button class="go" onclick="registrationComplite()">Играть!</button>
+                </article>
+            </section>    
+
+            <!-- Счёт и кнопки управления счётом -->
+            <div id="score">
+                <article>
+                    <button class="scrore_buttons" id="btn_com1_min">-</button>
+                    <p class="score_text" id="com1">Команда №1: 1200</p>
+                    <button class="scrore_buttons" id="btn_com1_pl">+</button>
+                </article>
+                <article>
+                    <button class="scrore_buttons" id="btn_com2_min">-</button>
+                    <p class="score_text" id="com2">Команда №2: 3200</p>
+                    <button class="scrore_buttons" id="btn_com2_pl">+</button>
+                </article>
+                <article>
+                    <button class="scrore_buttons" id="btn_com3_min">-</button>
+                    <p class="score_text" id="com3">Команда №3: 1800</p>
+                    <button class="scrore_buttons" id="btn_com3_pl">+</button>
+                </article>
+            </div>
+
+            <!-- Окно вопроса -->
+            <section id="qst_sect">
+                <div id="qst_box">
+                    <article>
+                        <div id="qst"></div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Табло вопросов супер-игры -->
+
+            <section id="final">
+                <article>
+                    <div class="big" id="1"></div>
+                </article>
+                <article>
+                    <div class="big" id="2"></div>
+                </article>
+                <article>
+                    <div class="big" id="3"></div>
+                </article>
+                <article>
+                    <div class="big" id="4"></div>
+                </article>
+            </section>    
+
+            <!-- Табло основных вопросов -->
+            <section>
+                <article>
+                    <div class="big" id="one"></div>
+                    <div class="small" id="11">100</div>
+                    <div class="small" id="12">200</div>
+                    <div class="small" id="13">300</div>
+                    <div class="small" id="14">400</div>
+                    <div class="small" id="15">500</div>
+                    <div class="small" id="16">600</div>
+                    <div class="small" id="17">700</div>
+                </article>
+                <article>
+                    <div class="big" id="two"></div>
+                    <div class="small" id="21">100</div>
+                    <div class="small" id="22">200</div>
+                    <div class="small" id="23">300</div>
+                    <div class="small" id="24">400</div>
+                    <div class="small" id="25">500</div>
+                    <div class="small" id="26">600</div>
+                    <div class="small" id="27">700</div>
+                </article>
+                <article>
+                    <div class="big" id="three">ВЫШЕ ТОЛЬКО ГОРЫ</div>
+                    <div class="small" id="31">100</div>
+                    <div class="small" id="32">200</div>
+                    <div class="small" id="33">300</div>
+                    <div class="small" id="34">400</div>
+                    <div class="small" id="35">500</div>
+                    <div class="small" id="36">600</div>
+                    <div class="small" id="37">700</div>
+                </article>
+                <article>
+                    <div class="big" id="four"></div>
+                    <div class="small" id="41">100</div>
+                    <div class="small" id="42">200</div>
+                    <div class="small" id="43">300</div>
+                    <div class="small" id="44">400</div>
+                    <div class="small" id="45">500</div>
+                    <div class="small" id="46">600</div>
+                    <div class="small" id="47">700</div>
+                </article>
+                <article>
+                    <div class="big" id="five"></div>
+                    <div class="small" id="51">100</div>
+                    <div class="small" id="52">200</div>
+                    <div class="small" id="53">300</div>
+                    <div class="small" id="54">400</div>
+                    <div class="small" id="55">500</div>
+                    <div class="small" id="56">600</div>
+                    <div class="small" id="57">700</div>
+                </article>
+                <article>
+                    <div class="big" id="six"></div>
+                    <div class="small" id="61">100</div>
+                    <div class="small" id="62">200</div>
+                    <div class="small" id="63">300</div>
+                    <div class="small" id="64">400</div>
+                    <div class="small" id="65">500</div>
+                    <div class="small" id="66">600</div>
+                    <div class="small" id="67">700</div>
+                </article>
+            </section>
+            <script src="main.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,92 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html {font-size: 20px;color: #fff;}
+body {background-color: #115;}
+div { font-size: 2.5vw; color: #cc9; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center;text-align: center;flex-wrap: nowrap;}
+section {
+    background-image: radial-gradient(#119,#116);
+    height: 100vh;
+    width: 100vw;
+    padding: 5vh;
+}
+article {
+    display: flex;justify-content: center;align-items: center;
+}
+.big { 
+    margin: -1px -1px 0 -1px;
+    width: 100%;
+    height: 15vh;
+    border: 1px solid #cc9;
+}
+
+.small {
+    margin: -1px -1px 0 0;
+    width: 50%;
+    height: 15vh;
+    border: 1px solid #cc9;
+}
+
+#qst_sect {
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    padding: 5vw;
+}
+#qst_box {
+    border: 1px solid #fff;
+    padding: 5vw;
+    height: 100%;
+    width: 100%;
+    /* background-image: url('back.gif');
+    background-size: 100%; */
+}
+#qst {
+    height: 100%;
+    width: 100%;
+}
+#score {position: absolute;z-index: 5;width: 100%;display: flex;justify-content: space-between;padding-left: 10vw;padding-right: 10vw;margin-top: 0.7vh;}
+.score_text {font-size: 3vh;color: #446;font-family: Arial, sans-serif;margin-left: 1vw;margin-right: 1vw;}
+.scrore_buttons {font-size: 2vh; height: 3vh; width: 2vw; background-color: #117; border:1px 0px 1px 1px solid red; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; }
+.scrore_buttons:hover {background-color: #777;}
+.scrore_buttons:active {background-color: #777;}
+
+#final {
+    z-index: -1;
+    position: absolute;
+    background-image: radial-gradient(#119,#116);
+    height: 100vh;
+    width: 100vw;
+    padding: 20vh;
+}
+#hello {
+    z-index: 6;
+    position: absolute;
+    background-image: radial-gradient(#119,#116);
+    border: 1px solid #fff;
+    height: 100vh;
+    width: 100vw;
+    padding: 20vh;
+}
+.input_com_name {
+    background-color: #cc9;
+    font-size: 2.5vw; 
+    color: #555;
+    height: 5vh;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.go{
+    height: 10vh;
+    width: 10vw;
+    color: #222;
+    font-size: 2.5vw; 
+}
+#start {
+    z-index: 10;
+    position: absolute;
+    background-image: radial-gradient(#119,#116);
+    border: 1px solid #fff;
+    height: 100vh;
+    width: 100vw;
+    padding: 20vh;
+}
